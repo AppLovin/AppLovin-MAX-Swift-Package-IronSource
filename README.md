@@ -17,7 +17,7 @@ The AppLovin MAX IronSource / LevelPlay mediation adapter for iOS, distributed v
    ```
    https://github.com/AppLovin/AppLovin-MAX-Swift-Package-IronSource
    ```
-3. Select **Exact Version** and enter the encoded version (e.g. `9040100.0.0` for adapter version `9.4.1.0.0`).
+3. Select **Exact Version** and enter the encoded version (e.g. `904010000.0.0` for adapter version `9.4.1.0.0`).
 4. Add the `AppLovinMediationIronSourceAdapter` product to your app target.
 
 ### Package.swift
@@ -26,7 +26,7 @@ The AppLovin MAX IronSource / LevelPlay mediation adapter for iOS, distributed v
 dependencies: [
     .package(
         url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package-IronSource.git",
-        exact: "9040100.0.0"
+        exact: "904010000.0.0"
     )
 ]
 ```
