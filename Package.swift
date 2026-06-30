@@ -29,7 +29,7 @@ let package = Package(
         .binaryTarget(
             name: "AppLovinMediationIronSourceAdapter",
             url: "https://artifacts.applovin.com/ios/com/applovin/mediation/ironsource-adapter/AppLovinMediationIronSourceAdapter-9.4.2.0.0.zip",
-            checksum: "3880c5ee67917dd7c1099cbd0443c2eae175df2409c00a74e270a95631b1675e"
+            checksum: "57c807a5034c1c7a55ae3ac7bc48e23169db8f4ffaf27381b298f569381aeb5d"
         )
     ]
 )
