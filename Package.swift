@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", from: "13.0.0"),
-        .package(url: "https://github.com/ironsource-mobile/Unity-Mediation-iAds-Swift-Package.git", exact: "9.6.1")
+        .package(url: "https://github.com/ironsource-mobile/Unity-Mediation-iAds-Swift-Package.git", exact: "9.7.0")
     ],
     targets: [
         .target(
@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppLovinMediationIronSourceAdapter",
-            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/ironsource-adapter/AppLovinMediationIronSourceAdapter-9.6.1.0.0.zip",
-            checksum: "c48482e0e1f86dd0f16b43082cb376a06f411c3eb47fb67b162af343d65f4f9d"
+            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/ironsource-adapter/AppLovinMediationIronSourceAdapter-9.7.0.0.0.zip",
+            checksum: "0755607e332b343baa7f28e366c4c146055e178fff4504129cea8a62727adf6e"
         )
     ]
 )
